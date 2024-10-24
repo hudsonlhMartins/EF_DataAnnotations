@@ -109,3 +109,5 @@
 /Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/obj/Debug/net8.0/EFDataAnnotations.pdb
 /Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/obj/Debug/net8.0/EFDataAnnotations.genruntimeconfig.cache
 /Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/obj/Debug/net8.0/ref/EFDataAnnotations.dll
+/Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/bin/Debug/net8.0/FluentValidation.dll
+/Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/obj/Debug/net8.0/EFDataAnnotations.sourcelink.json

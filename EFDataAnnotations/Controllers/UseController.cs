@@ -1,6 +1,7 @@
 using EFDataAnnotations.Communications.Requests;
 using EFDataAnnotations.Db;
 using EFDataAnnotations.Entity;
+using EFDataAnnotations.Validate;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EFDataAnnotations.Controllers;
@@ -27,6 +28,16 @@ public class UserController : ControllerBase
     [ProducesResponseType(typeof(User), 201)]
     public IActionResult Create([FromBody] CreateUser body)
     {
+
+        var validate = new UserValidate();
+        var result = validate.Validate(body);
+        
+        if(!result.IsValid)
+        {
+            return BadRequest(result.Errors.Select(error => error.ErrorMessage).ToList());
+        }
+        
+        
         var user = new User(name:body.Name, email:body.Email, password:body.Password);
         
         _context.Users.Add(user);

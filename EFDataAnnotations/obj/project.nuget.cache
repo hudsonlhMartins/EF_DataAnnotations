@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kYK/SA4tVBY3OgWzlyVBVZV2uC4wmATAC93ZDlX5ljfDZWFzWXHUP9VJyf9i5BY2R5JExYbDGhWTMAsuzwziLw==",
+  "dgSpecHash": "dfb8HdzMXwsFXNEGhFOP3FSCSOrRWa1kqh0I0NXFJjHcHBsfUN/4fnqQQKTol4tm6WQOOk8as3cdI9FOfHw8aA==",
   "success": true,
   "projectFilePath": "/Users/hudsonmartins/RiderProjects/EFDataAnnotations/EFDataAnnotations/EFDataAnnotations.csproj",
   "expectedPackageFiles": [
+    "/Users/hudsonmartins/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
     "/Users/hudsonmartins/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/hudsonmartins/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "/Users/hudsonmartins/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
